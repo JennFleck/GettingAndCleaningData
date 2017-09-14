@@ -15,4 +15,5 @@ This repository contains the following files:
   3. Use descriptive activity names in the data set.
   4. Labels the dta set with descriptive variable names.
   5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-* final_data.txt: The independent tidy data set computed by run_analysis.R.
+* final_data.txt: The independent tidy data set computed by run_analysis.R.  To view this table in R, place the file in your working directory and run this code view_this_table <- read.table("final_data.txt").
+
