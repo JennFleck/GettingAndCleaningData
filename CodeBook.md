@@ -91,6 +91,12 @@ tBodyGyroJerkMean
 
 ### Variables
 
+The following variables are included in final_data.txt
+
+* subject : an indicator for the 30 volunteers
+* activity : a description of the activity being measured (as decribed in the Summary Choices section below)
+* all the other variables (names are listed in the Summary Choices section below) are the mean of the orignal variables with the same names.  The original variables are described above in the Experimental Study Design section.  These variables are all normalized and bound within [-1,1].
+
 ### Summary Choices
 
 The activity codes given in the data set were numbers from 1 to 6.  These corresponded to the activities in the "activity_labels.txt" file and are as follows:
