@@ -72,5 +72,5 @@ final_data <- total_data %>%
 
 # export data 
 
-write.table(final_data, "final_data.txt")
+write.table(final_data, "final_data.txt", row.names = FALSE)
         
