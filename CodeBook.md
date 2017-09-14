@@ -93,6 +93,14 @@ tBodyGyroJerkMean
 
 ### Summary Choices
 
+The activity codes given in the data set were numbers from 1 to 6.  These corresponded to the activities in the "activity_labels.txt" file and are as follows:
+1. Walking
+2. Walking Upstairs
+3. Walking Downstairs
+4. Sitting
+5. Standing
+6. Laying
+
 The data fields used in the creation of our tidy data set are the fields that contained the words "mean" or "std" representing the mean and standard deviation measures are instructed in this problem.  Those fields are as shown in the list below and are described in the Experimental Study Design section above.
 
 "tBodyAcc-mean()-X"                    "tBodyAcc-mean()-Y"                   
